@@ -1,4 +1,174 @@
 {
+    "Names": [
+        "Tester",
+        "John",
+        "Jimmy",
+        "James",
+        "Anna",
+        "Denisse",
+        "Caroline",
+        "Peter",
+        "Chloë",
+        "NULL",
+        "GoVeg.com",
+        "田中太郎",
+        "Leone Sextus Denys Oswolf Fraudatifilius Tollemache-Tollemache de Orellana Plantagenet Tollemache-Tollemache",
+        "ᴮᴵᴳᴮᴵᴿᴰ"
+    ],
+    "LastName": [
+        "Testy",
+        "Rimmes",
+        "Scevedo",
+        "O'brien",
+        "O'Hara",
+        "De Monoer",
+        "van Heusen",
+        "NULL",
+        "GoVeg.com",
+        "田中太郎",
+        "Leone Sextus Denys Oswolf Fraudatifilius Tollemache-Tollemache de Orellana Plantagenet Tollemache-Tollemache",
+        "ᴮᴵᴳᴮᴵᴿᴰ"
+    ],
+    "Numbers": [
+        "0",
+        "32767",
+        "32768",
+        "32769",
+        "65535",
+        "65536",
+        "65537",
+        "2147483647",
+        "2147483648",
+        "2147483649",
+        "4294967295",
+        "4294967296",
+        "4294967297",
+        "1E-16",
+        "-1",
+        "0.0001",
+        "1,234,567",
+        "1.234.567,89"
+    ],
+    "E-mail addresses": {
+        "Valid": {
+            "Simple": "email@domain.com",
+            "Dot in the address": "firstname.lastname@domain.com",
+            "Subdomain": "email@subdomain.domain.com",
+            "Plus in address": "firstname+lastname@domain.com",
+            "Numeric domain": "email@123.123.123.123",
+            "Square bracket around IP address": "email@[123.123.123.123]",
+            "Unnecessary quotes around address": "\"email\"@domain.com",
+            "Necessary quotes around address": "\"email..email\"@domain.com",
+            "Numeric address": "1234567890@domain.com",
+            "Dash in domain": "email@domain-one.com",
+            "Underscore": "_______@domain.com",
+            ">3 char TLD": "email@domain.name",
+            "2 char TLD": "email@domain.co.jp",
+            "Dash in address": "firstname-lastname@domain.com",
+            "Intranet": "name@localhost"
+        },
+        "Invalid": {
+            "No @ or domain": "plainaddress",
+            "Missing @": "email.domain.com",
+            "Missing address": "@domain.com",
+            "Garbage": "#@%^%#$@#$@#.com",
+            "Copy/paste from address book with name": "Joe Smith <email@domain.com>",
+            "Superfluous text": "email@domain.com (Joe Smith)",
+            "Two @": "email@domain@domain.com",
+            "Leading dot in address": ".email@domain.com",
+            "Trailing dot in address": "email.@domain.com",
+            "Multiple dots": "email..email@domain.com",
+            "Unicode chars in address": "あいうえお@domain.com",
+            "Leading dash in domain": "email@-domain.com",
+            "Leading dot in domain": "email@.domain.com",
+            "Invalid IP format": "email@111.222.333.44444",
+            "Multiple dots in the domain": "email@domain..com"
+        }
+    },
+    "Credit Cards": {
+        "Visa": [
+            "4111111111111111",
+            "4111111111111110",
+            "4012888888881880",
+            "4716523819425032",
+            "4868742545908444"
+        ],
+        "Mastercard": [
+            "5105105105105100",
+            "5555555555554440",
+            "5420403453328491",
+            "5433366990079189"
+        ],
+        "American Express": [
+            "378282246310005",
+            "344175451163229",
+            "377101208476425",
+            "347839132215891"
+        ],
+        "Dinners Club": [
+            "38520000023237",
+            "30569309025904",
+            "30050483779558",
+            "30241513945851"
+        ],
+        "Discover": [
+            "6011111111111110",
+            "6011000990139420",
+            "6011338034702132",
+            "6011774929723363"
+        ]
+    },
+    "AVS": {
+        "RountingNumbers": {
+            "Valid": [
+                "122199983"
+            ],
+            "Invalid": [
+                "062102289"
+            ],
+            "Insufficent digits": [
+                "1221999"
+            ]
+        },
+        "Account Numbers": {
+            "Valid": [
+                "92361077941"
+            ],
+            "Invalid-AlphaNumeric": [
+                "A10319132927B"
+            ]
+        }
+    },
+    "Addresses": {
+        "New Jersey": {
+            "Line1": [
+                "2200 Fletcher Avenue"
+            ],
+            "City": [
+                "Fort Lee"
+            ],
+            "ZipCode": [
+                "07024"
+            ],
+            "State": [
+                "New Jersey"
+            ]
+        },
+        "Alabama": {
+            "Line1": [
+                "3 S Royal St"
+            ],
+            "City": [
+                "Mobile"
+            ],
+            "ZipCode": [
+                "36602"
+            ],
+            "State": [
+                "Alabama"
+            ]
+        }
+    },
     "Lorems": {
         "Latin": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "Cyrillic": "Римский император Константин I Великий по достоинству оценил выгодное местоположение приморского Византия, расположенного на стыке Европы и Азии. Кроме того, на решение Константина повлияла неспокойная обстановка в самом Риме: недовольство знати и постоянные распри в борьбе за трон. Император хотел увенчать свою реформаторскую деятельность созданием нового административного центра огромной державы. Закладка города состоялась осенью 324 года, и Константин лично решил обозначить его границы.",
@@ -112,75 +282,6 @@
             }
         }
     },
-    "Names": [
-        "John O'Grady",
-        "John James O'Grady",
-        "John James \"Jimmy\" O'Grady",
-        "José Casal-Giménez",
-        "Peter de Montfort",
-        "Chloë Rømer",
-        "NULL",
-        "GoVeg.com",
-        "田中太郎",
-        "Leone Sextus Denys Oswolf Fraudatifilius Tollemache-Tollemache de Orellana Plantagenet Tollemache-Tollemache",
-        "ᴮᴵᴳᴮᴵᴿᴰ"
-    ],
-    "E-mail addresses": {
-        "Valid": {
-            "Simple": "email@domain.com",
-            "Dot in the address": "firstname.lastname@domain.com",
-            "Subdomain": "email@subdomain.domain.com",
-            "Plus in address": "firstname+lastname@domain.com",
-            "Numeric domain": "email@123.123.123.123",
-            "Square bracket around IP address": "email@[123.123.123.123]",
-            "Unnecessary quotes around address": "\"email\"@domain.com",
-            "Necessary quotes around address": "\"email..email\"@domain.com",
-            "Numeric address": "1234567890@domain.com",
-            "Dash in domain": "email@domain-one.com",
-            "Underscore": "_______@domain.com",
-            ">3 char TLD": "email@domain.name",
-            "2 char TLD": "email@domain.co.jp",
-            "Dash in address": "firstname-lastname@domain.com",
-            "Intranet": "name@localhost"
-        },
-        "Invalid": {
-            "No @ or domain": "plainaddress",
-            "Missing @": "email.domain.com",
-            "Missing address": "@domain.com",
-            "Garbage": "#@%^%#$@#$@#.com",
-            "Copy/paste from address book with name": "Joe Smith <email@domain.com>",
-            "Superfluous text": "email@domain.com (Joe Smith)",
-            "Two @": "email@domain@domain.com",
-            "Leading dot in address": ".email@domain.com",
-            "Trailing dot in address": "email.@domain.com",
-            "Multiple dots": "email..email@domain.com",
-            "Unicode chars in address": "あいうえお@domain.com",
-            "Leading dash in domain": "email@-domain.com",
-            "Leading dot in domain": "email@.domain.com",
-            "Invalid IP format": "email@111.222.333.44444",
-            "Multiple dots in the domain": "email@domain..com"
-        }
-    },
-    "Numbers": [
-        "0",
-        "32767",
-        "32768",
-        "32769",
-        "65535",
-        "65536",
-        "65537",
-        "2147483647",
-        "2147483648",
-        "2147483649",
-        "4294967295",
-        "4294967296",
-        "4294967297",
-        "1E-16",
-        "-1",
-        "0.0001",
-        "1,234,567",
-        "1.234.567,89"
-    ],
     "Whitespace": {
         "Tabs and newlines": "Contains\tTabs\nAnd\tNewlines",
         "Leading spaces": "  leading spaces",
@@ -193,75 +294,5 @@
         "JS Script Injection": "Nice site,  I think I'll take it. <script>alert('Executing JS')</script>",
         "HTML parsing": "<blink>Hello there</blink>",
         "Broken HTML": "<i><b>Bold</i></b>"
-    },
-    "Credit Cards": {
-        "Visa": [
-            "4111111111111111",
-            "4111111111111110",
-            "4012888888881880",
-            "4716523819425032",
-            "4868742545908444"
-        ],
-        "Mastercard": [
-            "5105105105105100",
-            "5555555555554440",
-            "5420403453328491",
-            "5433366990079189"
-        ],
-        "American Express": [
-            "378282246310005",
-            "344175451163229",
-            "377101208476425",
-            "347839132215891"
-        ],
-        "Dinners Club": [
-            "38520000023237",
-            "30569309025904",
-            "30050483779558",
-            "30241513945851"
-        ],
-        "Discover": [
-            "6011111111111110",
-            "6011000990139420",
-            "6011338034702132",
-            "6011774929723363"
-        ]
-    },
-    "AVS": {
-        "RountingNumbers": {
-            "Valid": [
-                "122199983"
-            ],
-            "Invalid": [
-                "062102289"
-            ],
-            "Insufficent digits": [
-                "1221999"
-            ]
-        },
-        "Account Numbers": {
-            "Valid": [
-                "92361077941"
-            ],
-            "Invalid-AlphaNumeric": [
-                "A10319132927B"
-            ]
-        }
-    },
-    "Addresses": {
-        "New Jersey": {
-            "State": [
-                "New Jersey"
-            ],
-            "City": [
-                "Fort Lee"
-            ],
-            "ZipCode": [
-                "07024"
-            ],
-            "Line1": [
-                "2200 Fletcher Avenue"
-            ]
-        }
     }
 }
